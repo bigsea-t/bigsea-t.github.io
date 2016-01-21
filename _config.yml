@@ -3,7 +3,7 @@ title: Taikai Takeda
 email: 297.1951@gmail.com
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://bigsea-t.github.io/" # the base hostname & protocol for your site
+url: "http://bigsea-t.github.io" # the base hostname & protocol for your site
 twitter_username: bigsea_t
 github_username:  bigsea-t
 

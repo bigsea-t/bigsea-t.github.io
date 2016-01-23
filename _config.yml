@@ -9,3 +9,4 @@ github_username:  bigsea-t
 
 # Build settings
 markdown: kramdown
+exclude: [vendor]

@@ -1,6 +1,13 @@
 - org:  Waseda University
   role: B.S. in Electrical Engineering and Bioscience
   location: Tokyo Japan
-  when: April 2012 - Current
+  when: April 2012 - Now
   bullets: 
-    - 'Bioinformatics'
+    - ''
+
+- org:  University of California, Irvine
+  role: Visiting Student
+  location: Irvine, CA
+  when: September 2015 - Now
+  bullets: 
+    - ''

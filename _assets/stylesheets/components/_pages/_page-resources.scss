@@ -73,18 +73,19 @@
 
 
 .icon-links {
-  margin: 20px 0 0 0;
+  margin: 0 0 0 0;
   padding: 0;
   list-style: none;
   position: relative;
   top: 4px;
   text-align: center;
-  border-top: 2px solid #c7c7c7;
+//  border-top: 2px solid #c7c7c7;
   padding-top: .4rem;
 
   @include media_larger_than_mobile {
     border-top: none;
     padding-top: 0;
+    margin: 20px 0 0 0;
   }
 
   .icon-link-item {

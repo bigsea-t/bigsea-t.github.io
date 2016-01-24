@@ -6,6 +6,105 @@
  *
  */
 
+
+// Mixins
+// ---------------------------------------/
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin transition($value) {
+  -webkit-transition: $value;
+  -moz-transition: $value;
+  transition: $value;
+}
+
+// Clearfix
+//
+// Clears floats via mixin (avoid using as a class).
+
+@mixin clearfix {
+  &:before {
+    display: table;
+    content: "";
+  }
+
+  &:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+}
+
+// media querie tools
+
+@mixin media_max($screen_width) {
+  @media (max-width: $screen_width) { @content; }
+}
+
+@mixin media_min($screen_width) {
+  @media (min-width: $screen_width) { @content; }
+}
+
+@mixin media_larger_than_mobile {
+  @media (min-width: 600px) { @content; }
+}
+
+@mixin media_mobile {
+  @media (max-width: 600px) { @content; }
+}
+
+// type utilities
+
+@mixin sans {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@mixin sans_light {
+  @include sans;
+  font-weight: 300;
+}
+
+@mixin sans_regular {
+  @include sans;
+  font-weight: 400;
+}
+
+@mixin sans_bold {
+  @include sans;
+  font-weight: 700;
+}
+
+@mixin sans_extrabold {
+  @include sans;
+  font-weight: 800;
+}
+
+@mixin serif {
+  font-family: "Lora", "Minion Pro", Palatino, Georgia, serif;
+}
+
+@mixin serif_regular {
+  @include serif;
+  font-weight: 400;
+}
+
+@mixin serif_bold {
+  @include serif;
+  font-weight: 700;
+}
+
+// layout
+
+@mixin section_border {
+  border-top: 4px solid #c7c7c7;
+  border-bottom: 2px solid #c7c7c7;
+  padding: .2rem 0 .4rem;
+}
+
 html,
 body {
   width: 100%;
@@ -326,5 +425,52 @@ main {
     -webkit-flex: 1;
     flex: 1;
     text-align: center;
+  }
+}
+
+.page-header { padding: 1.5rem 0;
+
+  .avatar {
+    width: 360px;
+    max-width: 100%;
+    overflow: hidden;
+    @include border-radius(360px);
+    margin: 0 auto;
+    display: block;
+  }
+
+  .header-name {
+    @include sans;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: -.15rem;
+    line-height: 1;
+    margin: 1rem 0 2rem;
+  }
+
+  .title-bar {
+    @include section_border;
+    padding: .4rem 0;
+    @include clearfix;
+
+    .header-title {
+      @include sans;
+      font-weight: 300;
+      font-size: 1.75rem;
+      line-height: 2rem;
+      letter-spacing: -.05rem;
+      text-align: center;
+      margin: 0 0 .5rem;
+
+      @include media_larger_than_mobile {
+        float: left;
+        margin: 0;
+      }
+    }
+  }
+
+  .executive-summary {
+    @include media_larger_than_mobile { font-size: 1.125rem; }
   }
 }

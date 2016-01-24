@@ -1,0 +1,35 @@
+<!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
+<ul class="icon-links">
+
+  <!-- GitHub link -->
+  {% if site.github%}
+  <li class="icon-link-item"><a href="https://github.com/{{site.github}}" class="icon-link">{% include icons/icon-github.html %}</a></li>
+  {% endif %}
+
+  <!-- Twitter link -->
+  {% if site.twitter %}
+  <li class="icon-link-item"><a href="https://twitter.com/{{ site.twitter }}" class="icon-link">{% include icons/icon-twitter.html %}</a></li>
+  {% endif %}
+
+  <!-- Facebook link -->
+  {% if site.facebook %}
+  <li class="icon-link-item"><a href="https://www.facebook.com/{{ site.facebook }}" class="icon-link">{% include icons/icon-facebook.html %}</a></li>
+  {% endif %}
+
+  <!-- LinkedIn link -->
+  {% if site.linkedin %}
+  <li class="icon-link-item"><a href="https://www.linkedin.com/in/{{ site.linkedin }}" class="icon-link">{% include icons/icon-linkedin.html %}</a></li>
+  {% endif %}
+
+  <!-- Instagram link -->
+  {% if site.instagram %}
+  <li class="icon-link-item"><a href="https://www.instagram.com/{{ site.instagram}}" class="icon-link">{% include icons/icon-instagram.html %}</a></li>
+  {% endif %}
+
+  <!-- Website link -->
+  {% if site.website %}
+  <li class="icon-link-item"><a href="{{ site.website }}" class="icon-link">{% include icons/icon-website.html %}</a></li>
+  {% endif %}
+
+</ul>
+

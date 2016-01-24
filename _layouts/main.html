@@ -1,13 +1,24 @@
 ---
 layout: default
 ---
-<header class="app-bar promote-layer">
+<!-- <header class="app-bar promote-layer">
   <div class="app-bar-container">
     <button class="menu"><img src="images/hamburger.svg" alt="menu"></button>
     <h1 class="logo">{{ site.title }}</h1>
   </div>
+</header> -->
+
+<header class="page-header">
+
+
+  <h1>{{ site.name }}</h1>
+
+  <img src="images/avatar.jpg" alt="my photo" class="avatar">
+
+  {% include icon-links.html %}
+
 </header>
- 
+
 {{ content }}
 
 {% include layout/footer.html %}

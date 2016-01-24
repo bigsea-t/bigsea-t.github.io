@@ -1,3 +1,5 @@
-source "https://rubygems.org"
-
+source 'https://rubygems.org'
 gem 'github-pages'
+gem 'jekyll-assets'
+gem 'yui-compressor'
+gem 'psych'

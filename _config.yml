@@ -1,53 +1,55 @@
-# Site settings
-title: "Taikai Takeda's Personal Webpage"
-description: ""
+# Use this file to control the main attributes of the website
 
-# Build settings
-markdown: kramdown
-sass:
-  sass_dir: _sass
-  style: compressed
+# You
+name: Taikai Takeda
+# Title for your site as it will appear in google
+# e.g. Resume, Curriculum Vitae, Work History
+title: Taikai Takeda
 
-# Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Taikai Takeda"
-resume_title:                   ""
-resume_contact_email:
-  "297.1951@gmail.com"
+# SEO description
+description: Digital resume for Taikai Takeda, undergraduating student majoing in computer science
 
-# use "yes" to display the email contact button,
-# "no" to display an "I'm not looking for work" message,
-# or remove the resume_looking_for_work option entirely
-# to leave blank
-resume_looking_for_work:        "yes"
+# URL of this resume
+url: 'https://bigsea.me'
 
-# Decide which sections to use
-# comment out to hide
-resume_section_experience:      false
-resume_section_education:       true
-resume_section_projects:        false
-resume_section_skills:          false
-resume_section_recognition:     false
-resume_section_links:           false
-resume_section_associations:    false
+# URL of your personal website (make same as URL if you don't have one)
+personal: 'https://bigsea.me'
 
-# Resume social links
-# uncomment the options you wish to display, and add your own URL
-resume_social_links:
-  resume_github_url:            "https://github.com/bigsea-t"
-  resume_twitter_url:           "http://twitter.com/bigsea_t"
-  #resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/taikaitakeda"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://bigsea.me"
+# these should be pretty self-explanatory :-P
+email: 297.1951@gmail.com
+twitter: bigsea_t
 
-# Design settings
-resume_theme:                   default
+# Show this in the footer
+copyright: All rights reserved.
 
-# Note: when editing locally, remember to restart
-# your Jekyll server when you edit this file. Changes
-# to _config.yml are only recognized when the server starts
+# What should the navigation be called?
+navigation: navigation
 
-exclude: [vendor]
+# Google analytics ID: UA-XXXXX-X
+analytics: 
 
+# Jekyll assets gem
+assets:
+  dirname: assets
+  baseurl: /assets/
+  css_compressor: yui
+  js_compressor: yui
+  cachebust: hard
+  cache: false
+  gzip: nil # Cloudflare will do this
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+
+# Files in this repo that we don't want to go to the web
+exclude: [
+  'scss',
+  '*.rb',
+  '*.yml', 
+  'vendor', 
+  'Gemfile', 
+  'Gemfile.lock',
+  '*.sh',
+  'README.md',
+  'LICENSE.md',
+]

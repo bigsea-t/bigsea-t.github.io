@@ -1,20 +1,23 @@
 - org:  Murakumo Inc.
   role: Software Engineer
   location: Tokyo, Japan
-  when: Feburary 2015 - September 2015
+  when: Feb. 2015 - Sep. 2015
   bullets: 
-    - Develope distributed DBMS in pure C from scratch.
+    - Developed distributed DBMS in pure C from scratch.
+    - Experienced concurrent programming using posix thread.
 
 - org:  Cyber Agent Inc.
   role: Software Engineer (Intern)
   location: Tokyo, Japan
-  when: August 2014
+  when: Aug. 2014
   bullets: 
-    - Develope scheduling web app using AngularJS.
+    - Developed scheduling web app using AngularJS.
+    - Got 3rd prize in the internship program.
 
 - org:  Kawaii Museum Inc.
   role: Software Engineer
   location: Tokyo, Japan
-  when: October 2013 - Janurary 2015
+  when: Oct. 2013 - Jan. 2015
   bullets: 
-    - Develop mobile apps and web apps. Both backend and frontend.
+    - Developed mobile apps and web apps.
+    - Mainly focused on front end, including web apps and iOS apps (Native/Hybrid).

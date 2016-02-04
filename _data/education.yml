@@ -1,13 +1,17 @@
 - org:  Waseda University
   role: B.S. in Electrical Engineering and Bioscience
-  location: Tokyo Japan
-  when: April 2012 - Now
+  location: Tokyo, Japan
+  when: Apr. 2012 - Now
   bullets: 
-    - ''
+    - This is an interdisciplinary program, in which I study Electrical Engineering, Biology and Comuter Science.
+    - Doing undergraduate research in Bioinformatics using Machine Learning (listed below).
 
 - org:  University of California, Irvine
   role: Visiting Student
   location: Irvine, CA
-  when: September 2015 - Now
+  when: Sep. 2015 - Now
   bullets: 
-    - ''
+    - Study Abroad Program through Waseda University Center for International Education.
+    - Doing class works in Computer Science Department.
+    - Doing some projects (aside class works) on Machine Learning.
+# scholarship

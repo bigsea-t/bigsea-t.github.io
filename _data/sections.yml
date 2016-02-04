@@ -8,8 +8,8 @@
   id: education
   layout: block
 
-- name: Projects
-  id: projects
+- name: Research
+  id: research
   layout: block
 
 - name: Professional

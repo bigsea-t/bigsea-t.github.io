@@ -10,19 +10,19 @@ title: Taikai Takeda
 description: Digital resume for Taikai Takeda, undergraduating student majoing in computer science
 
 # URL of this resume
-url: 'https://bigsea.me'
+url: 'http://bigsea.me'
 
 # URL of your personal website (make same as URL if you don't have one)
-personal: 'https://bigsea.me'
+personal: 'http://bigsea.me'
 
 # these should be pretty self-explanatory :-P
 email: 297.1951@gmail.com
 twitter: bigsea_t
 github: bigsea-t
-# facebook: taikai.takeda
+facebook: taikai.takeda
 linkedin: taikaitakeda
 #instagram: bigsea____
-website:
+website: http://bigsea.me
 
 # Show this in the footer
 copyright: All rights reserved.

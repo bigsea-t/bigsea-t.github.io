@@ -1,0 +1,16 @@
+- org: Project on Neural Network and Autoencoder
+  role: Supervised by prof. Baldi (UC, Irvine)
+  location: Irvine, CA
+  when: Sep. 2015 - Now
+  bullets: 
+    - Ongoing.
+
+- org: Project on DNA alignment #Nonparametric HMM for DNA alignment
+  role: Supervised by prof. Hamada (Waseda Univ.)
+  location: Tokyo, Japan
+  when: Sep. 2014 - Now
+  bullets: 
+    - Ongoing.
+    # - Implemented state-of-the-art nonparametric HMM model called FABHMM ([Fujimaki et. al. ICML 2012](http://people.ee.duke.edu/~lcarin/fujimaki_ICML12.pdf)) in Pyhon and Cython.
+    # - Software is available on [github](https://github.com/bigsea-t/hmmlearn/tree/fabhmm), which inherit basic features from OSS [hmmlearn](https://github.com/hmmlearn/hmmlearn).
+

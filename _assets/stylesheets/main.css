@@ -75,7 +75,7 @@
 
 @mixin sans_bold {
   @include sans;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @mixin sans_extrabold {
@@ -94,7 +94,7 @@
 
 @mixin serif_bold {
   @include serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 // layout
@@ -497,4 +497,8 @@ main {
 .block img{
   margin: 0px auto;
   display: block;
+}
+
+b, strong {
+  font-weight: 500;
 }

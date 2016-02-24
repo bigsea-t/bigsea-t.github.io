@@ -2,18 +2,18 @@
     <div class="block">
         <div class="main-row">
             <div class="org">
-                <h3>{{ section.org }}</h3>
+                <h3>{{ section.org | markdownify |  remove: '<p>' | remove: '</p>' }}</h3>
             </div>
             <div class="when">
-                <h3>{{ section.when }}</h3>
+                <h3>{{ section.when | markdownify |  remove: '<p>' | remove: '</p>' }}</h3>
             </div>
         </div>
         <div class="sub-row">
             <div class="role">
-                <h4>{{ section.role }}</h4>
+                <h4>{{ section.role | markdownify |  remove: '<p>' | remove: '</p>'  }}</h4>
             </div>
             <div class="location">
-                <h4>{{ section.location }}</h4>
+                <h4>{{ section.location | markdownify |  remove: '<p>' | remove: '</p>'  }}</h4>
             </div>
         </div>
         {% if section.bullets %}

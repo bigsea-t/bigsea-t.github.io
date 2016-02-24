@@ -8,10 +8,14 @@
   id: education
   layout: block
 
-- name: Research
+- name: Research Projects
   id: research
   layout: block
 
-- name: Professional
+- name: Selected Class Projects
+  id: class
+  layout: block
+
+- name: Professional Activities
   id: professional
   layout: block

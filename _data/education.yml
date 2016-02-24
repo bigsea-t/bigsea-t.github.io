@@ -4,7 +4,7 @@
   when: Apr. 2012 - Now
   bullets: 
     - This is an interdisciplinary program, in which I study Electrical Engineering, Biology and Comuter Science.
-    - Doing undergraduate research in Bioinformatics using Machine Learning (listed below).
+    - Doing undergraduate research in **Bioinformatics** using **Machine Learning** (listed below).
 
 - org:  University of California, Irvine
   role: Visiting Student
@@ -12,6 +12,7 @@
   when: Sep. 2015 - Now
   bullets: 
     - Study Abroad Program through Waseda University Center for International Education.
+    - Supported by JASSO Scholarship for Study Abroad Program
     - Doing class works in Computer Science Department.
-    - Doing some projects (aside class works) on Machine Learning.
+    - Doing research projects (aside from class works) on **Machine Learning**.
 # scholarship

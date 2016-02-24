@@ -311,6 +311,10 @@ main {
   min-height: 100%;
 }
 
+/*.block img{
+  width: 100%;
+}*/
+
 /** Larger Screens - desktops and tablets **/
 @media all and (min-device-width: 1200px) {
   .app-bar {
@@ -397,6 +401,9 @@ main {
     position: relative;
     margin-top: 0;
   }
+  .block img{
+    width: 500px;
+  }
 }
 
 @media all and (min-device-width: 1200px) and (max-width: 800px) {
@@ -425,6 +432,9 @@ main {
     -webkit-flex: 1;
     flex: 1;
     text-align: center;
+  }
+  .block img{
+    width: 400px;
   }
 }
 
@@ -473,4 +483,18 @@ main {
   .executive-summary {
     @include media_larger_than_mobile { font-size: 1.125rem; }
   }
+}
+
+
+#{$a-tags} {
+  color: $colorBlue;
+  text-decoration: none;
+}
+#{$a-tags-hover} {
+  color: $colorBlueSecondary;
+}
+
+.block img{
+  margin: 0px auto;
+  display: block;
 }

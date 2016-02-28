@@ -1,10 +1,11 @@
 - org:  Waseda University
-  role: B.S. in Electrical Engineering and Bioscience
+  role: Department of Electrical Engineering and Bioscience
   location: Tokyo, Japan
   when: Apr. 2012 - Now
   bullets: 
     - This is an interdisciplinary program, in which I study Electrical Engineering, Biology and Comuter Science.
     - Doing undergraduate research in **Bioinformatics** using **Machine Learning** (listed below).
+    - GPA  3.55/4.00 (lower-division 3.38, upper-division 3.96)
 
 - org:  University of California, Irvine
   role: Visiting Student
@@ -12,7 +13,7 @@
   when: Sep. 2015 - Now
   bullets: 
     - Study Abroad Program through Waseda University Center for International Education.
-    - Supported by JASSO Scholarship for Study Abroad Program
+    - Supported by **JASSO Scholarship for Study Abroad Program**
     - Doing class works in Computer Science Department.
     - Doing research projects (aside from class works) on **Machine Learning**.
 # scholarship

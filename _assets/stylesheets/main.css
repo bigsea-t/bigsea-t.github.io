@@ -311,9 +311,7 @@ main {
   min-height: 100%;
 }
 
-/*.block img{
-  width: 100%;
-}*/
+
 
 /** Larger Screens - desktops and tablets **/
 @media all and (min-device-width: 1200px) {
@@ -499,6 +497,19 @@ main {
   display: block;
 }
 
-b, strong {
-  font-weight: 500;
+p b, strong {
+   font-weight: 500;
+}
+
+ul.images li:before{
+    font-size: 0px;
+}
+
+ul.images li{
+  display: inline-block;
+  float:left;
+  max-width: 100%
+}
+.clear {
+  clear:both;
 }

@@ -23,5 +23,13 @@
             {% endfor %}
         </ul>
         {% endif %}
+        {% if section.image_urls %}
+        <ul class="images">
+            {% for image_url in section.image_urls %}
+            <li><img src="{{ image_url }}"></li>
+            {% endfor %}
+            <div class="clear"></div>
+        </ul>
+        {% endif %}
     </div>
 {% endfor %}

@@ -1,19 +1,23 @@
-- org: Artificial Intelligence
-  role: Instructed by [Prof. Smith](http://www.ics.uci.edu/~smyth/)
+- org: Text Analysis
+  role: Instructed by [Prof. Padhraic Smyth](http://www.ics.uci.edu/~smyth/)
   location: . # Irvine, CA
   when: . # Sep. 2016 - Feb. 2015
   bullets: 
+    - Class webpage [CS 175 Project in Artificial Intelligence](http://www.ics.uci.edu/~smyth/courses/cs175/)
     - Apply Machine Learning to Text Analysis
     - Ongoing.
 
 
 - org: Multivariate Analysis
-  role: Instructed by [Prof. Murata](http://www.murata.eb.waseda.ac.jp/noboru.murata/?menu=profile&submenu=resume)
+  role: Instructed by [Prof. Noboru Murata](http://www.murata.eb.waseda.ac.jp/noboru.murata/?menu=profile&submenu=resume)
   location: . # Tokyo, Japan
   when: . # Sep. 2014 - Feb. 2015
   bullets: 
-    - Pnredicted correlation between programming languages from github data
+    - Predicted correlation among programming languages from github data
     - Modeled similarity of languages using github commit history - languages commited by the same user are considered as "similar"
-    - Visualize with Multi Dimensional Scaling (MDS) ![MDS](images/pl_similarity_mds.png)
+    - Visualize with Multi Dimensional Scaling (MDS)
+  image_urls:
+    - images/pl_similarity_mds.png
+
 
 

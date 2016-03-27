@@ -4,7 +4,7 @@
   when: Feb. 2015 - Sep. 2015
   bullets: 
     - Developed distributed DBMS in pure C from scratch.
-    - Experienced concurrent programming using posix thread.
+    - Concurrent programming with posix thread.
 
 - org:  Cyber Agent Inc.
   role: Software Engineer (Intern)
@@ -19,5 +19,5 @@
   location: Tokyo, Japan
   when: Oct. 2013 - Jan. 2015
   bullets: 
-    - Developed mobile apps and web apps.
+    - Developed mobile and web apps.
     - Focused mainly on front end, including web apps and iOS apps (Native/Hybrid).

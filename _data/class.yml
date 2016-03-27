@@ -4,9 +4,11 @@
   when: . # Sep. 2016 - Feb. 2015
   bullets: 
     - Class webpage [CS 175 Project in Artificial Intelligence](http://www.ics.uci.edu/~smyth/courses/cs175/)
-    - Apply Machine Learning to Text Analysis
-    - Ongoing.
-
+    - "Project Title: *Best Answer Prediciton on Stack Overflow Data Set*"
+    - "Source code is available on [GitHub](https://github.com/bigsea-t/best-answer-prediction)"
+    - Final report is available [here](downloads/best_answer_prediction.pdf)
+  image_urls:
+    - images/bapred_pipeline.png
 
 - org: Multivariate Analysis
   role: Instructed by [Prof. Noboru Murata](http://www.murata.eb.waseda.ac.jp/noboru.murata/?menu=profile&submenu=resume)
@@ -14,7 +16,7 @@
   when: . # Sep. 2014 - Feb. 2015
   bullets: 
     - Predicted correlation among programming languages from github data
-    - Modeled similarity of languages using github commit history - languages commited by the same user are considered as "similar"
+    - Modeled similarity of languages using github commit history - languages commited by the same user are considered "similar"
     - Visualize with Multi Dimensional Scaling (MDS)
   image_urls:
     - images/pl_similarity_mds.png

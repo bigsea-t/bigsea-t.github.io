@@ -1,0 +1,9 @@
+{% for section_hash in blurb %}
+  {% for paragraph in section_hash %}
+  
+    <div>{{ paragraph | markdownify }}</div>
+
+
+  {% endfor %}
+
+{% endfor %}

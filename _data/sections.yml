@@ -3,6 +3,9 @@
 #   name -> Name displayed on the section
 #   id -> used for the CSS id and the yml file name. 
 #   layout -> which resume format to use from _includes/resume
+- name: About
+  id: about
+  layout: paragraph
 
 - name: Education
   id: education
@@ -13,9 +16,17 @@
   layout: block
 
 - name: Selected Class Projects
-  id: class
+  id: classes
   layout: block
 
 - name: Professional Activities
   id: professional
   layout: block
+
+- name: Honors & Awards
+  id: honors
+  layout: list
+
+- name: Others
+  id: others
+  layout: list

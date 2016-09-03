@@ -439,7 +439,7 @@ main {
 .page-header { padding: 1.5rem 0;
 
   .avatar {
-    width: 360px;
+    width: 240px;
     max-width: 100%;
     overflow: hidden;
     @include border-radius(360px);

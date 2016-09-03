@@ -8,9 +8,11 @@
 - org: DNA alignment #Nonparametric HMM for DNA alignment
   role: Supervised by [Prof. Michiaki Hamada](https://sites.google.com/site/michiakihamada/), Waseda University
   location: Tokyo, Japan
-  when: Sep. 2014 - Now
+  when: Apr. 2015 - Now
   bullets: 
-    - Ongoing.
+    - Working as a Research Assistant (RA)
+    - Poster presentation at a domestic conference. <br/>“Model Selection for Pairwise Hidden Markov Model”, *Informatics in Biology, Medicine and Pharmacology (IIBMP)*, 2016
+    #- Presented at a domestic conference, Informatics in Biology Medicine and Pharmacology (IIBMP)
     # - Implemented state-of-the-art nonparametric HMM model called FABHMM ([Fujimaki et. al. ICML 2012](http://people.ee.duke.edu/~lcarin/fujimaki_ICML12.pdf)) in Pyhon and Cython.
     # - Software is available on [github](https://github.com/bigsea-t/hmmlearn/tree/fabhmm), which inherit basic features from OSS [hmmlearn](https://github.com/hmmlearn/hmmlearn).
 

@@ -3,9 +3,9 @@
   location: Tokyo, Japan
   when: Apr. 2012 - Now
   bullets: 
-    - Major in Electrical Engineering, Biology and Computer Science (interdisciplinary program).
+    - Major in Electrical Engineering, Computer Science and Biology (interdisciplinary program).
     - Undergraduate research in **Bioinformatics** using **Machine Learning** (listed below).
-    - GPA 3.55/4.00 (lower-division 3.38, upper-division 3.96)
+    - GPA 3.55/4.00 (lower-div. 3.38, upper-div. 3.96)
 
 - org:  University of California, Irvine
   role: Visiting Student
@@ -14,7 +14,6 @@
   bullets: 
     - Study abroad program through Waseda University Center for International Education.
     - Supported by **JASSO Scholarship for Study Abroad Program**
-    - Classworks in Donald Bren School of Information & Computer Science.
-    - '**GPA 3.90/4.00**'
-    - Research project (aside from class works) on **Neural Networks**.
-# scholarship
+    - Classworks in Donald Bren School of Information & Computer Science (ICS).
+    - ICS classes GPA **3.90/4.00**
+    - Research project on **Neural Networks**.

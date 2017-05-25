@@ -1,0 +1,48 @@
+- org: Recruit Holdings Co., Ltd.
+  role: Software Engineer
+  location: Tokyo, Japan
+  when: April. 2017 - Now
+  bullets: 
+    - ""
+
+- org: Recruit Institute of Technology
+  role: Research Intern
+  location: Mountain View, CA
+  when: Mar. 2017 - Apr. 2017
+  bullets: 
+    - Natural Language Understanding project
+
+- org:  Waseda University
+  role: Research Assistant
+  location: Tokyo, Japan
+  when: Sep. 2016 - Mar. 2017
+  bullets: 
+    - Research in DNA alignment problem using Bayesian model selection.
+
+- org:  Waseda University
+  role: Teaching Assistant
+  location: Tokyo, Japan
+  when: Sep. 2016 - Feb. 2017
+  bullets: 
+    - Teaching Assistant in an elementary programming class (Java).
+
+- org:  Murakumo Inc.
+  role: Software Engineer
+  location: Tokyo, Japan
+  when: Feb. 2015 - Sep. 2015
+  bullets: 
+    - RDBMS in pure C.
+
+- org:  Cyber Agent Inc.
+  role: Software Engineer Intern
+  location: Tokyo, Japan
+  when: Aug. 2014
+  bullets: 
+    - Frontend development.
+
+- org:  Kawaii Museum Inc.
+  role: Software Engineer
+  location: Tokyo, Japan
+  when: Oct. 2013 - Jan. 2015
+  bullets: 
+    - Mobile and web apps development.

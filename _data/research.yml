@@ -1,17 +1,18 @@
 - org: Neural Network
   role: Supervised by [Prof. Pierre Baldi](http://www.igb.uci.edu/~pfbaldi/), UC Irvine
   location: Irvine, CA
-  when: Sep. 2015 - Now
+  when: Sep. 2015 - Jun. 2016
   bullets: 
-    - Ongoing.
+    - Analysis of Local Learning, a biolobically feasible learning algorithm of nerual networks
 
 - org: DNA alignment #Nonparametric HMM for DNA alignment
   role: Supervised by [Prof. Michiaki Hamada](https://sites.google.com/site/michiakihamada/), Waseda University
   location: Tokyo, Japan
   when: Apr. 2015 - Now
   bullets: 
-    - Working as a Research Assistant (RA)
-    - Poster presentation at a domestic conference. <br/>“Model Selection for Pairwise Hidden Markov Model”, *Informatics in Biology, Medicine and Pharmacology (IIBMP)*, 2016
+    - Model selection on Piarwise Hidden Markov Models using Factorized Information Criterion, an asymptotically consistent criterion of marginal likelihood.
+    - Working as a Research Assistant (RA).
+    # - Poster presentation at a domestic conference. <br/>“Model Selection for Pairwise Hidden Markov Model”, *Informatics in Biology, Medicine and Pharmacology (IIBMP)*, 2016.
     #- Presented at a domestic conference, Informatics in Biology Medicine and Pharmacology (IIBMP)
     # - Implemented state-of-the-art nonparametric HMM model called FABHMM ([Fujimaki et. al. ICML 2012](http://people.ee.duke.edu/~lcarin/fujimaki_ICML12.pdf)) in Pyhon and Cython.
     # - Software is available on [github](https://github.com/bigsea-t/hmmlearn/tree/fabhmm), which inherit basic features from OSS [hmmlearn](https://github.com/hmmlearn/hmmlearn).

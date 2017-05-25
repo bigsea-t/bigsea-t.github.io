@@ -1,0 +1,15 @@
+- org:  5th Conference on Informatics in Biology, Medicine and Pharmacology (IIBMP)
+  role: Poster Presentation
+  location: Tokyo, Japan
+  when: Sep. 2016
+  bullets: 
+    - "Title: Model Selection for Pairwise Hidden Markov Models"
+    - "Downloads: [poster](downloads/iibmp2016_poster.pdf), [slide](downloads/iibmp2016_lt.pdf)"
+
+- org: 19th Workshop on Information-Based Induction Sciences (IBIS)
+  role: Poster Presentation
+  location: Kyoto, Japan
+  when: Nov. 2016
+  bullets: 
+    - "Title: Model Selection for Pairwise Hidden Markov Models using Factorized Information Criterion" 
+    - "Downloads: [poster](downloads/ibis2016_poster.pdf), [slide](downloads/ibis2016_lt.pdf)"
